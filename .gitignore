@@ -1,0 +1,51 @@
+﻿# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+out/
+build/
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.pch
+*.ipch
+*.lib
+*.exp
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+secrets.ini
+secrets.json
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+
+# Editor settings
+.vscode/
