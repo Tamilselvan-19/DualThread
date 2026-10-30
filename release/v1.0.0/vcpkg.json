@@ -1,0 +1,8 @@
+{
+  "name": "cpp-chat-messaging-system-advanced",
+  "version": "1.0.0",
+  "dependencies": [
+    "hiredis",
+    "librdkafka"
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "product": "DualThread",
+  "version": "v1.0.0",
+  "created_at": "2026-10-30T12:58:29+05:30",
+  "platform": "Windows x64",
+  "git": {
+    "branch": "main",
+    "commit": "135c642",
+    "dirty": true,
+    "remote": "https://github.com/Tamilselvan-19/DualThread.git"
+  },
+  "sat_gate": "PASS",
+  "sat_summary": {
+    "project": "C:\\Users\\Asus\\OneDrive\\Documents\\Default Project\\DualThread",
+    "mode": "full",
+    "started_at": "2026-10-30T12:51:41+05:30",
+    "finished_at": "2026-10-30T12:53:14+05:30",
+    "gate": "PASS",
+    "total": 163,
+    "passed": 161,
+    "failed": 0,
+    "warnings": 2,
+    "skipped": 0,
+    "pass_rate": 98.77,
+    "files": 120,
+    "file_failures": 0,
+    "file_warnings": 0
+  },
+  "artifacts": [
+    {
+      "name": "ChatClient.exe",
+      "kind": "executable",
+      "bytes": 715776,
+      "sha256": "8ada2030fc71efee12b18bf4463a3bf6ffcb70ea2ac5668e93cd089b3302b827",
+      "arch": "x64",
+      "source": "bin/Release/ChatClient.exe"
+    },
+    {
+      "name": "ChatServer.exe",
+      "kind": "executable",
+      "bytes": 672256,
+      "sha256": "7f5cfe03cd6830313cdb2a863c6f1a1b64023e465b71bd641bff614a5b9f3f25",
+      "arch": "x64",
+      "source": "bin/Release/ChatServer.exe"
+    },
+    {
+      "name": "LoadBalancer.exe",
+      "kind": "executable",
+      "bytes": 483840,
+      "sha256": "e2db7cd6ae572a11dd2f5f82f91edb7186ef46289ade2377eac3d11ae3f460c0",
+      "arch": "x64",
+      "source": "bin/Release/LoadBalancer.exe"
+    },
+    {
+      "name": "DBWriter.exe",
+      "kind": "executable",
+      "bytes": 464896,
+      "sha256": "7d42f08391bae88607ec4ced8f03dffcebfda10dccff4a5d42f93d96f3bb8f50",
+      "arch": "x64",
+      "source": "bin/Release/DBWriter.exe"
+    },
+    {
+      "name": "hiredis.dll",
+      "kind": "runtime-dll",
+      "bytes": 120832,
+      "sha256": "2026682b3031cc63f90d4a6ab45962370587f34288d3f94d3db61024b7c358f4",
+      "arch": "x64",
+      "source": "bin/Release/hiredis.dll"
+    },
+    {
+      "name": "rdkafka.dll",
+      "kind": "runtime-dll",
+      "bytes": 2398208,
+      "sha256": "6ba3e8ca451449949837fa3861a3646f18e6fffd6961992a79a0331de3d65e30",
+      "arch": "x64",
+      "source": "bin/Release/rdkafka.dll"
+    },
+    {
+      "name": "lz4.dll",
+      "kind": "runtime-dll",
+      "bytes": 130048,
+      "sha256": "d029d2e9cb7ca8433e3f5d1a0717d3f026d79054956612cd7fdf4052d2d99738",
+      "arch": "x64",
+      "source": "bin/Release/lz4.dll"
+    }
+  ],
+  "files": [
+    {
+      "path": "bin/Release/ChatClient.exe",
+      "bytes": 715776,
+      "sha256": "8ada2030fc71efee12b18bf4463a3bf6ffcb70ea2ac5668e93cd089b3302b827"
+    },
+    {
+      "path": "bin/Release/ChatServer.exe",
+      "bytes": 672256,
+      "sha256": "7f5cfe03cd6830313cdb2a863c6f1a1b64023e465b71bd641bff614a5b9f3f25"
+    },
+    {
+      "path": "bin/Release/DBWriter.exe",
+      "bytes": 464896,
+      "sha256": "7d42f08391bae88607ec4ced8f03dffcebfda10dccff4a5d42f93d96f3bb8f50"
+    },
+    {
+      "path": "bin/Release/hiredis.dll",
+      "bytes": 120832,
+      "sha256": "2026682b3031cc63f90d4a6ab45962370587f34288d3f94d3db61024b7c358f4"
+    },
+    {
+      "path": "bin/Release/LoadBalancer.exe",
+      "bytes": 483840,
+      "sha256": "e2db7cd6ae572a11dd2f5f82f91edb7186ef46289ade2377eac3d11ae3f460c0"
+    },
+    {
+      "path": "bin/Release/lz4.dll",
+      "bytes": 130048,
+      "sha256": "d029d2e9cb7ca8433e3f5d1a0717d3f026d79054956612cd7fdf4052d2d99738"
+    },
+    {
+      "path": "bin/Release/rdkafka.dll",
+      "bytes": 2398208,
+      "sha256": "6ba3e8ca451449949837fa3861a3646f18e6fffd6961992a79a0331de3d65e30"
+    },
+    {
+      "path": "config/client.ini",
+      "bytes": 109,
+      "sha256": "b862ef3e3968355fa9bcbe81a86a70ac38ee962bcdf59088eedeba2f836a4e3b"
+    },
+    {
+      "path": "config/dbwriter.ini",
+      "bytes": 263,
+      "sha256": "67a765bb23a64b66eee1d446e28afad1d6734397317e7cc79a82797506cdc20c"
+    },
+    {
+      "path": "config/loadbalancer.ini",
+      "bytes": 255,
+      "sha256": "c711a21238d0fc5dd413f05a5beebf060a0311211d751f6785b1034b7717f9ac"
+    },
+    {
+      "path": "config/server1.ini",
+      "bytes": 438,
+      "sha256": "2f6a1a119a413b974a54fc37f20f822d62ca5d02d733556b0262f5499f60ec25"
+    },
+    {
+      "path": "config/server2.ini",
+      "bytes": 438,
+      "sha256": "7c3b6f867a06a718798f31dcd7e045f13c956e1a3dea57622106431f29faf38e"
+    },
+    {
+      "path": "CppChatMessaging.sln",
+      "bytes": 2323,
+      "sha256": "4866100e788931e3180d308ad8b3d3cef999ff9eaf2e3afb2121ce18c16b9e12"
+    },
+    {
+      "path": "database/migration_v2_groups.sql",
+      "bytes": 2009,
+      "sha256": "75867effe520acabb2264288a16f5302cc581a1a9653a22ee4879030cae6d73f"
+    },
+    {
+      "path": "database/sample_data.sql",
+      "bytes": 468,
+      "sha256": "96907d0ea4aa9d7b5e0b1979ef70ecf973321214d3cf909d6b6f8bcea1137811"
+    },
+    {
+      "path": "database/schema.sql",
+      "bytes": 1399,
+      "sha256": "e6600f5ad6a56f903a7588bfbfc47becba656ac1ebb08dd04ed07b828b45801d"
+    },
+    {
+      "path": "docs/AGENTS.md",
+      "bytes": 12521,
+      "sha256": "186558120f5fa5b4ea09d86751961759d77e6259ff19cb6cdfe9b2e957350fe5"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 17155,
+      "sha256": "a63c1693008ac14c1376857b969091348c05ceff1c0d392615da2f8226ddf230"
+    },
+    {
+      "path": "docs/DualThread-Execution-Guide.pdf",
+      "bytes": 696957,
+      "sha256": "254bc8eb823d256fe888415e6c13b0338c0d92bf568bd300bafd046c0a4b2c1c"
+    },
+    {
+      "path": "docs/screenshots/group-chat.png",
+      "bytes": 48963,
+      "sha256": "f67a8513ba7af0ec82d0a46482819c90c6464baf46170d0f6847a4eb1d4be303"
+    },
+    {
+      "path": "docs/screenshots/group-joined.png",
+      "bytes": 40086,
+      "sha256": "632bfd817d3a6e792520241952aa0ef1d4859d2a61545d8719e58842c257e900"
+    },
+    {
+      "path": "docs/screenshots/login.png",
+      "bytes": 34217,
+      "sha256": "2ed2d7d068c91971ef1ddc3578d0677180033289d75234f41234f0bdd5537e71"
+    },
+    {
+      "path": "docs/screenshots/personal-chat.png",
+      "bytes": 62017,
+      "sha256": "8d5eda3efb028810c15fc6152882599cdd14ab90afabf2c0c6087963fea1d38e"
+    },
+    {
+      "path": "docs/screenshots/reconnect-feedback.png",
+      "bytes": 49791,
+      "sha256": "33a94a133ee2180b8a53fc257e5761b573c922236c9a809c8698446d2c6e0759"
+    },
+    {
+      "path": "docs/screenshots/reconnected.png",
+      "bytes": 50436,
+      "sha256": "9b38154fb49732a4eceda9edf9dba8418c8b9799f961c1a50dabe97306ec6513"
+    },
+    {
+      "path": "docs/screenshots/typing-indicator.png",
+      "bytes": 61563,
+      "sha256": "1f6478fd07b9d018bb11b4ad2b4f9359fef08c364650c9fbc86429d7557e99a8"
+    },
+    {
+      "path": "docs/screenshots/unread-badge.png",
+      "bytes": 35865,
+      "sha256": "363a130bb3143a16268fed8277c41005bd912b929d01f3e6cb7af78674572aca"
+    },
+    {
+      "path": "docs/TEST_RESULTS.md",
+      "bytes": 10938,
+      "sha256": "488f7ba5c5cc9d8be1cb70423c05b31177f2c446f9e182f2a2f6c55b5888cc26"
+    },
+    {
+      "path": "docs/TRACEABILITY.md",
+      "bytes": 8360,
+      "sha256": "5e86a057a5eb2e62ed16830134a0a572b72a6208af5d71bc0b53cb8cd8349a56"
+    },
+    {
+      "path": "README.md",
+      "bytes": 21428,
+      "sha256": "331d143e883f37b250c9d82a31a5a61dc4665f7392b94ea85f55dbd2af06df1c"
+    },
+    {
+      "path": "SAT_Report.json",
+      "bytes": 163513,
+      "sha256": "82df70bfb30163f1a0997804e64674ae9413dc2db1d1f29c2058636fd5317f88"
+    },
+    {
+      "path": "SAT_Report.xlsx",
+      "bytes": 54856,
+      "sha256": "31f928092e29289e6ec407eda87a55b34598ddb6b4faf9bed50793efd9a84bb2"
+    },
+    {
+      "path": "scripts/start-all.ps1",
+      "bytes": 6903,
+      "sha256": "0bda575783efe88f2a0474a23f9c46e1bfd05b6249e70121c914ffb9265d8baf"
+    },
+    {
+      "path": "scripts/stop-all.ps1",
+      "bytes": 1860,
+      "sha256": "9094d62cb68790cd458368609353f0d4a33c7ee6c3fa551a978827be6a529080"
+    },
+    {
+      "path": "vcpkg.json",
+      "bytes": 130,
+      "sha256": "c306047d9647dbefb41a3a29527651dfb568d82ca53da98d7bb292e958351b48"
+    }
+  ]
+}
